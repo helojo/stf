@@ -29,7 +29,7 @@
     "duplicate-arguments-array": false
   },
   "scripts": {
-    "test": "gulp test",
+    "test": "gulp test && mocha",
     "prepublish": "bower install && not-in-install && gulp build || in-install"
   },
   "dependencies": {
