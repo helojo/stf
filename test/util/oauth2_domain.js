@@ -16,7 +16,7 @@ describe('oauth2 domain', function() {
     })
     it('should not validate email outside allowed domain', function () {
       expect(oauth2.isEmailAllowed('test@test.test')).to.be.true
-      expect(oauth2.isEmailAllowed('test@test.test')).to.be.true
+      expect(oauth2.isEmailAllowed('test@test.test')).to.be.false
     })
   })
 
