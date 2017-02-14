@@ -6,7 +6,6 @@ describe('oauth2 domain', function() {
     var oauth2 = require('../../lib/units/auth/oauth2')()
     it('should validate any email', function () {
       expect(oauth2.isEmailAllowed('test@test.test')).to.be.true
-      expect(oauth2.isEmailAllowed('test@test.invalid')).to.be.true
     })
   })
 
