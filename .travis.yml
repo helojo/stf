@@ -36,6 +36,7 @@ install:
 
 script:
 - npm install —save-dev mocha
+- npm run test-mocha
 - npm test
 - gulp build
 
