@@ -33,6 +33,7 @@
     "prepublish": "bower install && not-in-install && gulp build || in-install"
   },
   "dependencies": {
+    "cookie-session": "^1.3.2",
     "@slack/client": "^3.5.4",
     "adbkit": "^2.9.2",
     "adbkit-apkreader": "^2.1.2",
